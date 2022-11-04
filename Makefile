@@ -1,6 +1,7 @@
 include ./Makefile.Common
 
-RUN_CONFIG?=local/config.yaml
+#RUN_CONFIG?=local/config.yaml
+RUN_CONFIG?=./config-test.yaml
 CMD?=
 OTEL_VERSION=main
 
